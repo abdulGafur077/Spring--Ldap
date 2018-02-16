@@ -25,6 +25,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter  {
                 .and()
                     .formLogin();
     }
+	// checking....
 
     @Override
     public void configure(AuthenticationManagerBuilder auth) throws Exception {
